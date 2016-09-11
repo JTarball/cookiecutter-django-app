@@ -20,7 +20,8 @@ e.g
 ```
 
 Then:
-
+* Create a repo and put it there.
+* Add repo to CircleCI
 * Write your application (Search and replace Example model with appropriate name)
 * Modify the documentation
 * Modify and add tests
