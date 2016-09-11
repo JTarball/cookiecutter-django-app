@@ -15,6 +15,7 @@ To create a new django app:
 e.g
 ```console
     mkdir -p new_project/
+    cd new_project
     cookiecutter https://github.com/jtarball/cookiecutter-django-app
 ```
 

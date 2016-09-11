@@ -4,7 +4,7 @@ import {{ cookiecutter.package_name }}
 
 setup(
     name="{{ cookiecutter.project_name }}",
-    version={{ cookiecutter.package_name }}.__version__,
+    version="{{ cookiecutter.version }}",
     description="{{ cookiecutter.project_short_description }}",
     long_description="{{ cookiecutter.project_long_description }}",
     keywords="django",
