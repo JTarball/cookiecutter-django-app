@@ -11,7 +11,7 @@ setup(
     author="{{ cookiecutter.author_special }}",
     author_email="{{ cookiecutter.email }}",
     url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}",
-    license="{{ cookiecuttter.open_source_license }}",
+    license="{{ cookiecutter.open_source_license }}",
     packages=["{{ cookiecutter.package_name }}"],
     zip_safe=False,
     include_package_data=True,
