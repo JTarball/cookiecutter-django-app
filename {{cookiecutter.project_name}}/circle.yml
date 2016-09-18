@@ -20,6 +20,7 @@ test:
       - py.test --junitxml=circle-junit/django/junit.xml tests/
       - mkdir -p $CIRCLE_TEST_REPORTS/django
       - mv circle-junit/django $CIRCLE_TEST_REPORTS/
+      - cd docs && make html coverage
 
 deployment:
   production:
