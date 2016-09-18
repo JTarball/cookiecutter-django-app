@@ -2,7 +2,7 @@
   "package_name": "myapp",
   "package_classname": "{{ cookiecutter.package_name.title() }}",
   "project_name": "django-{{ cookiecutter.package_name }}",
-  "github_username": "jtarball",
+  "github_username": "JTarball",
   "email": "james.tarball@gmail.com",
   "author_special": "James Tarball <james.tarball@gmail.com>",
   "project_short_description": "Reusable, generic app for Django",

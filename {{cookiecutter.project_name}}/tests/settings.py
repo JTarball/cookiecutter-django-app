@@ -94,7 +94,7 @@ LOGGING = {
             'when': 'midnight',
             'interval': 1,
             'backupCount': 30,
-            'filename': SITE_ROOT + '/log/' + 'project' + '.log',
+            'filename': 'app.log',
             'formatter': 'verbose',
         },
         'null': {

@@ -22,6 +22,8 @@ e.g
 Then:
 * Create a repo and put it there.
 * Add repo to CircleCI
+* You might need an user ssh key on CircleCI 
+
 * Write your application (Search and replace Example model with appropriate name)
 * Modify the documentation
 * Modify and add tests

@@ -226,17 +226,3 @@ dummy:
 	$(SPHINXBUILD) -b dummy $(ALLSPHINXOPTS) $(BUILDDIR)/dummy
 	@echo
 	@echo "Build finished. Dummy builder generates no files."
-
-.PHONY: gh-pages
-gh-pages:
-	git checkout gh-pages
-	@echo "Removing old source and static files"
-	rm -rf ../_sources ../_static
-	git checkout master Makefile source
-	make html
-	mv -fv build/html/* ../
-	touch ../.nojekyll
-	@echo "Add all files to gh-pages branch"
-	cd ..
-	git add -A
-	git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push origin gh-pages ; git checkout master

@@ -11,7 +11,7 @@ from django.core.urlresolvers import reverse
 
 from django_dynamic_fixture import G
 from django_dynamic_fixture.ddf import BadDataError
-from rest_framework.test import APITestCase
+from rest_framework.test import APIClient, APITestCase
 
 from tests.models import AccountsUser
 
@@ -28,4 +28,4 @@ class {{ cookiecutter.package_classname}}ModelTests(APITestCase):
     def test_model_example(self):
         """ Example of model test for {{ cookiecutter.package_name }} app. """
         #example = G(Example, content="This is a test example.", author=self.staff)
-        self.assertEquals(true, true, "This shouldnt happen!")
+        self.assertEquals(True, True, "This shouldnt happen!")
