@@ -8,5 +8,5 @@
 ## {{ cookiecutter.project_name }}
 {{ cookiecutter.project_long_description }}
 
-
+The documentation can be found at (once deployed): https://{{ cookiecutter.github_username }}.github.io/{{ cookiecutter.project_name }}/ 
 
