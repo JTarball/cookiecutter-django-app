@@ -1,7 +1,8 @@
 {
-  "package_name": "myapp",
-  "package_classname": "{{ cookiecutter.package_name.title() }}",
-  "project_name": "django-{{ cookiecutter.package_name }}",
+  "app_name": "myapp",
+  "package_name": "django_{{ cookiecutter.app_name }}",
+  "package_classname": "{{ cookiecutter.app_name.title() }}",
+  "project_name": "django-{{ cookiecutter.app_name }}",
   "github_username": "JTarball",
   "email": "james.tarball@gmail.com",
   "author": "James Tarball",
