@@ -1,0 +1,14 @@
+#####
+# Circle CI
+# 
+# For running docker images on circle ci, see: https://circleci.com/docs/docker
+# For circle.yml explanation, see: https://circleci.com/docs/manually
+# Python specific configuration, see: https://circleci.com/docs/language-python
+#####
+
+
+test:
+    override:
+      - yes "" | cookiecutter https://github.com/JTarball/cookiecutter-django-app
+      - cd django-myapp && python setup.py install
+      - cd django-myapp/docs && make html coverage
