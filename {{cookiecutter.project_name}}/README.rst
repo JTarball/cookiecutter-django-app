@@ -45,9 +45,10 @@ urls.py
 
 .. code-block:: python
 
+    from {{ cookiecutter.app_name }} import urls as urls_{{ cookiecutter.app_name }}
     urlpatterns = [
         ...
-        url(r'^accounts/', include('allauth.urls')),
+        url(r'^{{ cookiecutter.app_name }}/', include(urls_{{ cookiecutter.app_name }}, namespace="{{ cookiecutter.app_name }}")),
         ...
     ]
 
