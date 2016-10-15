@@ -22,7 +22,12 @@ e.g
 Then:
 * Create a repo and put it there.
 * Add repo to CircleCI
-* You might need an user ssh key on CircleCI 
+* You might need an user ssh key on CircleCI
+```
+    Under your project settings
+    Permissions -> Checkout SSH Keys
+    Click Create and add <Username> user key
+```
 * You will need to create a branch `gh-pages` to run the documentation
 
 * Write your application (Search and replace Example model with appropriate name)
