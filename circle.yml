@@ -12,11 +12,11 @@ dependencies:
     pre:
         - pip install cookiecutter
         - pip install sphinx
-        - pip install pytest
+        - yes "" | cookiecutter https://github.com/JTarball/cookiecutter-django-app
+        - cd django-myapp && pip install -r requirements.txt
 
 test:
     override:
-      - yes "" | cookiecutter https://github.com/JTarball/cookiecutter-django-app
       - cd django-myapp && python setup.py install
       - cd django-myapp/docs && make html coverage
       - mkdir -p django-myapp/circle-junit/django

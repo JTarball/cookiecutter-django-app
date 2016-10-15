@@ -17,14 +17,14 @@ pytest-xdist
 pytest-coverage
 nose-progressive
 responses>=0.4.0
-sphinx_rtd_theme
 
 
 # Django docs supports
 # ====================
+sphinx
 recommonmark
 sphinx-git
-
+sphinx_rtd_theme
 
 # {{ cookiecutter.project_name }} specific packages
 # =============================

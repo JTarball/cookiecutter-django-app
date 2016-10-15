@@ -39,10 +39,14 @@ Django Test Requirements
 
 - responses>=0.4.0
 
-- sphinx_rtd_theme
 
 Django Docs Requirements
 -----------------------
+- sphinx
+
 - recommonmark
 
 - sphinx-git
+
+- sphinx_rtd_theme
+
