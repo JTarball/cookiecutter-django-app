@@ -6,9 +6,13 @@
 # Python specific configuration, see: https://circleci.com/docs/language-python
 #####
 
+# Basic test of cookiecutter deployment - basic django test & building of documentation
+
 dependencies:
     pre:
         - pip install cookiecutter
+        - pip install sphinx
+        - pip install pytest
 
 test:
     override:
