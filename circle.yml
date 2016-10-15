@@ -6,6 +6,9 @@
 # Python specific configuration, see: https://circleci.com/docs/language-python
 #####
 
+dependencies:
+    pre:
+        - pip install cookiecutter
 
 test:
     override:
