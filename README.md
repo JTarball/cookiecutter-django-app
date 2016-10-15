@@ -23,6 +23,7 @@ Then:
 * Create a repo and put it there.
 * Add repo to CircleCI
 * You might need an user ssh key on CircleCI 
+* You will need to create a branch `gh-pages` to run the documentation
 
 * Write your application (Search and replace Example model with appropriate name)
 * Modify the documentation
