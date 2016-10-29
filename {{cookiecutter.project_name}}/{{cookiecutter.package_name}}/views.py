@@ -1,10 +1,10 @@
-'''
+"""
     {{ cookiecutter.package_name }}.views
-    ==========
+    ===========================
     Note: As Django is only used as a backend there are no
            template based views. All views are ajax views
            returning json objects of models.
-'''
+"""
 import logging
 
 from rest_framework import viewsets

@@ -1,8 +1,8 @@
 """
-    blog.test_views.py
-    ==================
+    tests.test_views
+    ================
 
-    Test Views for Blog App
+    Test Views for {{ cookiecutter.app_name }} App
 
 """
 import logging
@@ -26,7 +26,7 @@ class ExampleViewTest(APITestCase):
         self.superadmin = G(AccountsUser, is_superuser=True, is_staff=True)
         self.superadmin_not_staff = G(AccountsUser, is_superuser=True, is_staff=False)
         self.client = APIClient()
-        #self.url = reverse('blog:list')
+        #self.url = reverse('{{ cookiecutter.app_name }}:list')
 
     def test_example_view(self):
         """ Test example. """

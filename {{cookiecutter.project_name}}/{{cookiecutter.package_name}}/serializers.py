@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 """
     {{ cookiecutter.package_name }}.serializers
-    ================
+    ========================
 
     Serializers file for a basic Blog App
 

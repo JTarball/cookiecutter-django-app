@@ -33,12 +33,13 @@ Django Test Requirements
 
 - pytest-xdist
 
-- pytest-coverage
+- pytest-cov
 
 - nose-progressive
 
 - responses>=0.4.0
 
+- freezegun
 
 Django Docs Requirements
 -----------------------
